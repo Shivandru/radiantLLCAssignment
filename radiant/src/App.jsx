@@ -8,6 +8,7 @@ import RelatedSection from "./Sections/Related-deals-Section/RelatedSection";
 import Navbar from "./Sections/NavbarSection/Navbar";
 import TopSectionComponent from "./Sections/TopSection/TopSectionComponent";
 import TopLower from "./Sections/TopLowerSection/TopLower";
+import MiddSection from "./Sections/Midd-Section/MiddSection";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
       <div className="mainContainer">
         <TopSectionComponent />
         <TopLower />
+        <MiddSection />
         <RelatedSection />
         <LowerPage />
       </div>

@@ -3,7 +3,7 @@ import "./buttonComponent.css";
 const ButtonComponent = ({ children }) => {
   return (
     <>
-      <button>{children}</button>
+      <button id="buttonComp">{children}</button>
     </>
   );
 };

@@ -1,0 +1,44 @@
+.middSectionCardContainer{
+    width: 100%;
+    height:auto;
+    border:1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.subSections{
+    width: 25%;
+    height: 100%;
+    border:1px solid black;
+}
+.middImg{
+    width: 50%;
+}
+.imgDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.imgText{
+    font-size: 0.8rem;
+}
+.ratingDiv{
+    width:60%;
+    height:6rem;
+    border:1px solid black;
+    margin:auto;
+    background-color: #F3F9FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+h3{
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+.ratingText{
+   color: #074786;
+}
