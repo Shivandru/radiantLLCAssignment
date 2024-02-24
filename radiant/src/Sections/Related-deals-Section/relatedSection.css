@@ -1,0 +1,23 @@
+.relatedContainer{
+    /* border:2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    padding:1rem;
+    margin-bottom: 2rem;
+}
+.realtedSectionHeading{
+    font-weight: 500;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+@media (max-width: 600px) {
+    .relatedContainer {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .relatedSectionHeading {
+        text-align: center;
+    }
+}

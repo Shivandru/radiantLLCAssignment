@@ -1,0 +1,41 @@
+.mainFooter{
+    width: 100%;
+    height:51vh;
+    background-color: #212731;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+}
+p,ul{
+    margin-top: 2rem;
+}
+ul{
+    list-style: none;
+    font-size: 0.8rem;
+    margin-top:0.5rem;
+}
+li{
+    margin-top:0.5rem
+}
+#usa{
+    margin-top: 3rem;
+}
+
+#usa p {
+    display: flex; 
+    align-items: center;
+}
+#footerImg{
+    margin-left: 0.3rem;
+}
+
+@media (max-width:600px){
+    .mainFooter{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #usa{
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+}
