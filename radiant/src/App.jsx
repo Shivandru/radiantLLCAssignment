@@ -5,10 +5,11 @@ import "./App.css";
 import Footer from "./Sections/FooterSection/Footer";
 import LowerPage from "./Sections/Lowest-Section/LowerPage";
 import RelatedSection from "./Sections/Related-deals-Section/RelatedSection";
-
+import Navbar from "./Sections/NavbarSection/Navbar";
 function App() {
   return (
     <>
+      <Navbar />
       <div className="mainContainer">
         <RelatedSection />
         <LowerPage />
