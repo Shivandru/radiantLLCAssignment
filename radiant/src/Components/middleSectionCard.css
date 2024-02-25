@@ -63,7 +63,7 @@ h3{
     justify-content: center;
     border-radius: 50%;
     position: absolute;
-    top:0;
+    top:1rem;
     left:-1rem
 }
 
