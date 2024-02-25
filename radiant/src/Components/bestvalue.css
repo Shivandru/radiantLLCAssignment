@@ -1,0 +1,11 @@
+.bestValueContainer{
+    background-color: #FF7724;
+    color:#FFFFFF;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:2.5rem;
+    width:10rem
+}

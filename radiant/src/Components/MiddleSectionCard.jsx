@@ -1,7 +1,15 @@
 import React from "react";
 import "./middleSectionCard.css";
 import ButtonComponent from "./ButtonComponent";
-const MiddleSectionCard = ({ children, number }) => {
+import StarRatingComponent from "./StarRatingComponent";
+import BestValue from "./BestValue";
+const MiddleSectionCard = ({
+  children,
+  number,
+  coment,
+  indexing,
+  BuliderImg,
+}) => {
   return (
     <div className="middSectionCardContainer">
       <div className="imgDiv subSections">
@@ -11,14 +19,16 @@ const MiddleSectionCard = ({ children, number }) => {
           alt=""
         />
         <div>
-          <p className="imgText">Builder 1</p>
+          <p className="imgText">{BuliderImg}</p>
         </div>
+        <div className="numberContainer">{indexing}</div>
       </div>
-      <div>{children}</div>
+      <div className="childrenDiv">{children}</div>
       <div className="ratingComponent subSections">
         <div className="ratingDiv">
           <h3>{number}</h3>
-          <p className="ratingText">exceptional</p>
+          <p className="ratingText">{coment}</p>
+          <StarRatingComponent size={15} />
         </div>
         <ButtonComponent>View</ButtonComponent>
       </div>
